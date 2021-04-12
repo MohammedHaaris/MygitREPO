@@ -1,0 +1,71 @@
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo
+$ git add f1.txt
+fatal: not a git repository (or any of the parent directories): .git
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo
+$ git init
+Initialized empty Git repository in D:/Myrepo/MyrepoDemo/.git/
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git add f1.txt
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git config--g user.name"MohammedHaaris"
+git: 'config--g' is not a git command. See 'git --help'.
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git commit -m "Adding f1.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Haaris@haaris.(none)')
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git config --global user.email "mohammed22@gmail.com"
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git config --global user.email "mohammedhaaris22@gmail.com"
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git config --global user.name "MohammedHaaris.com"
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git commit -m "Adding f1.txt"
+[master (root-commit) 17230ee] Adding f1.txt
+ 1 file changed, 24 insertions(+)
+ create mode 100644 f1.txt
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git remote add origin https://github.com/MohammedHaaris/MygitREPO.git
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MohammedHaaris/MygitREPO.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ touch hello.txt
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$ git init
+Reinitialized existing Git repository in D:/Myrepo/MyrepoDemo/.git/
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo (master)
+$

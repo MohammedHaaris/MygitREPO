@@ -1,0 +1,24 @@
+hi hello
+Haaris@haaris MINGW64 ~ (master)
+$ D;
+bash: D: command not found
+
+Haaris@haaris MINGW64 ~ (master)
+$ cd d:
+
+Haaris@haaris MINGW64 /d
+$ mkdir Myrepo
+
+Haaris@haaris MINGW64 /d
+$ cd Myrepo
+
+Haaris@haaris MINGW64 /d/Myrepo
+$ mkdir MyrepoDemo
+
+Haaris@haaris MINGW64 /d/Myrepo
+$ cd MyrepoDemo
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo
+$ touch f1.txt
+
+Haaris@haaris MINGW64 /d/Myrepo/MyrepoDemo
